@@ -11,8 +11,8 @@ export class DocusignService {
     dsApiClient.setBasePath(mainArgs.baseUrl);
 
     dsApiClient.addDefaultHeader(
-      'Authorization',
-      'Bearer ' + mainArgs.accessToken,
+      'X-DocuSign-Authentication',
+      '{ "Username":"mudassir.ijaz@kwanso.com",  "Password":"pa$$WORD1122",  "IntegratorKey":"27af8f71-2a7c-4ee5-bf5e-2a47fb6cc107" }',
     );
 
     const envelopesApi = new docusign.EnvelopesApi(dsApiClient);
