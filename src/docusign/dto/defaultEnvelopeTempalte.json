@@ -18,7 +18,8 @@
               "documentId": "1",
               "pageNumber": "3",
               "xPosition": "187",
-              "yPosition": "449"
+              "yPosition": "449",
+              "fontColor": "BrightRed"
             }
           ],
           "textTabs": [
@@ -32,7 +33,8 @@
               "yPosition": "183",
               "bold": "true",
               "font": "TimesNewRoman",
-              "fontSize": "Size10"
+              "fontSize": "Size10",
+              "fontColor": "BrightRed"
             },
             {
               "name": "Company",
@@ -44,7 +46,8 @@
               "yPosition": "214",
               "bold": "true",
               "font": "TimesNewRoman",
-              "fontSize": "Size10"
+              "fontSize": "Size10",
+              "fontColor": "BrightRed"
             },
             {
               "name": "Title",
@@ -56,7 +59,8 @@
               "yPosition": "231",
               "bold": "true",
               "font": "TimesNewRoman",
-              "fontSize": "Size10"
+              "fontSize": "Size10",
+              "fontColor": "BrightRed"
             },
             {
               "name": "Address",
@@ -68,7 +72,8 @@
               "yPosition": "248",
               "bold": "true",
               "font": "TimesNewRoman",
-              "fontSize": "Size10"
+              "fontSize": "Size10",
+              "fontColor": "BrightRed"
             },
             {
               "name": "City",
@@ -80,7 +85,8 @@
               "yPosition": "264",
               "bold": "true",
               "font": "TimesNewRoman",
-              "fontSize": "Size10"
+              "fontSize": "Size10",
+              "fontColor": "BrightRed"
             },
             {
               "name": "FullName",
@@ -88,11 +94,12 @@
               "tabLabel": "FullName",
               "documentId": "1",
               "pageNumber": "1",
-              "xPosition": "103",
+              "xPosition": "91",
               "yPosition": "335",
               "bold": "true",
               "font": "TimesNewRoman",
-              "fontSize": "Size10"
+              "fontSize": "Size10",
+              "fontColor": "BrightRed"
             },
             {
               "name": "SpellPercentage",
@@ -104,7 +111,8 @@
               "yPosition": "467",
               "bold": "true",
               "font": "TimesNewRoman",
-              "fontSize": "Size8"
+              "fontSize": "Size8",
+              "fontColor": "BrightRed"
             },
             {
               "name": "Percentage",
@@ -112,11 +120,12 @@
               "tabLabel": "Percentage",
               "documentId": "1",
               "pageNumber": "1",
-              "xPosition": "87",
+              "xPosition": "89",
               "yPosition": "477",
               "bold": "true",
               "font": "TimesNewRoman",
-              "fontSize": "Size8"
+              "fontSize": "Size8",
+              "fontColor": "BrightRed"
             },
             {
               "name": "SpellDays",
@@ -128,7 +137,8 @@
               "yPosition": "525",
               "bold": "true",
               "font": "TimesNewRoman",
-              "fontSize": "Size8"
+              "fontSize": "Size8",
+              "fontColor": "BrightRed"
             },
             {
               "name": "VoilationDays",
@@ -136,11 +146,12 @@
               "tabLabel": "VoilationDays",
               "documentId": "1",
               "pageNumber": "1",
-              "xPosition": "264",
+              "xPosition": "218",
               "yPosition": "565",
               "bold": "true",
               "font": "TimesNewRoman",
-              "fontSize": "Size8"
+              "fontSize": "Size8",
+              "fontColor": "BrightRed"
             },
             {
               "name": "NotifyDays",
@@ -148,11 +159,12 @@
               "tabLabel": "NotifyDays",
               "documentId": "1",
               "pageNumber": "1",
-              "xPosition": "87",
-              "yPosition": "575",
+              "xPosition": "488",
+              "yPosition": "565",
               "bold": "true",
               "font": "TimesNewRoman",
-              "fontSize": "Size8"
+              "fontSize": "Size8",
+              "fontColor": "BrightRed"
             },
             {
               "name": "TerminationDays",
@@ -160,11 +172,12 @@
               "tabLabel": "TerminationDays",
               "documentId": "1",
               "pageNumber": "1",
-              "xPosition": "421",
+              "xPosition": "363",
               "yPosition": "575",
               "bold": "true",
               "font": "TimesNewRoman",
-              "fontSize": "Size8"
+              "fontSize": "Size8",
+              "fontColor": "BrightRed"
             },
             {
               "name": "Company",
@@ -176,7 +189,8 @@
               "yPosition": "418",
               "bold": "true",
               "font": "TimesNewRoman",
-              "fontSize": "Size10"
+              "fontSize": "Size10",
+              "fontColor": "BrightRed"
             }
           ]
         }

@@ -57,7 +57,7 @@ export class DocusignService {
 
     date.value = this._dateToDesireForamt();
     company.value = body.companyName;
-    title.value = body.companyContactTitle;
+    title.value = `${body.companyContactName}, ${body.companyContactTitle}`;
     address.value = body.address;
     fullName.value = body.companyContactName;
     city.value = `${body.city}, ${body.state} ${body.zip}`;
@@ -68,6 +68,28 @@ export class DocusignService {
     notifyDays.value = body.notifyDays;
     terminationDays.value = body.terminationDays;
     companyAgain.value = body.companyName;
+
+    envelope.emailBlurb = `
+    Subject: Direct Hire Agreement - ${body.companyName} & RealREPP
+
+Dear ${body.companyContactName},
+    
+Good afternoon, We appreciate the opportnunity to work with you and COMPANY and we look forward to great success working together.
+    
+Attached is the Direct Hire Agreement for your review. Please let us know if you have any questions.
+    
+In the event of a different contract signatory, we left the signature line blank for easy forwarding. For convenience, this agreement was also sent to your attention in pdf format via email and can also be forwarded.
+    
+We look forward to working with you!
+    
+Stay Save + Healthy 
+
+Cheers,
+Johnny Renaudo 
+CEO | Founder 
+Direct: 949-383-5345
+johnnyrenaudo@realrepp.com
+www.realrepp.com`;
 
     envelope.templateRoles = [templateRoles];
 
