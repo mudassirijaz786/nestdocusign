@@ -1,7 +1,7 @@
 {
   "envelopeArgs": {
     "status": "sent",
-    "templateId": "ce4d2ff0-d142-486c-a2cb-642c29833755",
+    "templateId": "DOCUSIGN_TEMPLATE_ID_HERE",
     "templateRoles": [
       {
         "email": "",
@@ -197,6 +197,6 @@
       }
     ]
   },
-  "accountId": "517fe3f4-5710-4dfc-bd5e-ff9887a807cc",
+  "accountId": "DOCUSIGN_ACCOUNT_ID_HERE",
   "baseUrl": "https://demo.docusign.net/restapi"
 }

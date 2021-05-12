@@ -12,7 +12,7 @@ export class DocusignService {
 
     dsApiClient.addDefaultHeader(
       'X-DocuSign-Authentication',
-      '{ "Username":"mudassir.ijaz@kwanso.com",  "Password":"pa$$WORD1122",  "IntegratorKey":"27af8f71-2a7c-4ee5-bf5e-2a47fb6cc107" }',
+      '{ "Username":"DOCUSIGN_EMAIL_HERE",  "Password":"DOCUSIGN_PASSWORD_HERE",  "IntegratorKey":"DOCUSIGN_INTEGRATION_KEY_HERE" }',
     );
 
     const envelopesApi = new docusign.EnvelopesApi(dsApiClient);
@@ -106,25 +106,4 @@ www.realrepp.com`;
   }
 }
 
-/*
 
-{
-    "recipientEmail": "ijazmudassir786@gmail.com",
-    "recipientRole": "Signer",
-    "recipientName": "Mudassir",
-    "companyName": "Kwanso",
-    "companyContactTitle": "Developer",
-    "address": "string",
-    "companyContactName": "Nadeem Yasin",
-    "city": "Lahore",
-    "state": "Punjab",
-    "zip": "54000",
-    "spellPercentage": "Fifteen Percent",
-    "percentage": "15%",
-    "spellDays": "thirty days",
-    "voilationDays": "30",
-    "notifyDays": "30",
-    "terminationDays": "30"
-}
-
-*/
